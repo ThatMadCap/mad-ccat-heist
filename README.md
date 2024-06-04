@@ -4,11 +4,9 @@
 
 <a href="https://ko-fi.com/madcap" target="_blank"><img src="https://assets-global.website-files.com/5c14e387dab576fe667689cf/64f1a9ddd0246590df69ea0b_kofi_long_button_red%25402x-p-500.png" alt="Support me on Ko-fi" width="250"></a>
 
-This resource is a heist where players break into an abandoned police station to copy the data from a local repository onto a blank USB, giving them a USB which allows them to hack into police radio channels and listen to their communication (If using V7-RadioHack) The players can complete the heist "quiet", recieving a lesser reward. If the player has enough experience, they can complete it "loud", recieving more rewards but alerting the police to their location.
+# Introduction
 
-The resource was written to compliment [V7-RadioHack](https://github.com/V7-DEV/V7-RadioHack). Successfully completing the heist will give the player a radiousb, intended to use to begin the V7-RadioHack. At the time and within the story of my server La Mesa PD was an abandonded police department, so it made sense to have players break into it to on the sly to get their reward. If your server has the department as functional, you may want to edit the doorlock config provided.
-
-The final hack for this is very difficult and the player is provided a lot of time to complete it. The math minigame from glow_minigames is used. If this is too hard for your players, consider using the edited version of glow-minigames that we have provided within this resource in the "INSTALL" folder. This edited version is slightly easier than the base math minigame, but will still take the average player a decent time to figure out.
+Break into a police department to clone a copy of some federal software. Options to complete the heist "quiet" or "loud". Intended to compliment [V7-RadioHack](https://github.com/V7-DEV/V7-RadioHack) by giving players a unique heist to clone the USB required.
 
 ## Preview
 [Youtube](https://youtu.be/_8Hql9-SKfk)
@@ -548,7 +546,11 @@ Config.DoorList['mad-ccat-heist:gabz_lamesapd_cargate'] = {
 * When cloning multiple USBs, the player bring anywhere between 2-5 blank usbs and recieve that many copies.
 
 ##### Notes
-The heist was originally written for my FiveM server and I had no plans on releasing it. The heist has been tested fully and works properly. It is intended to be used once per server restart, therefore includes no cooldown feature. The heist will sync its state with all players on load. The building has 2 outer security systems that require bypassing in order to access the final hack.
+The heist was originally written for my FiveM server and I had no plans on releasing it. The heist has been tested and works properly. It is intended to be used once per server restart, therefore includes no cooldown feature. The heist will sync its state with all players on load. The building has 2 outer security systems that require bypassing in order to access the final hack.
+
+The resource was written to compliment [V7-RadioHack](https://github.com/V7-DEV/V7-RadioHack). Successfully completing the heist will give the player a radiousb, intended to use to begin the V7-RadioHack. At the time and within the story of my server La Mesa PD was an abandonded police department, so it made sense to have players break into it to on the sly to get their reward. If your server has the department as functional, you may want to edit the doorlock config provided.
+
+The final hack for this is very difficult and the player is provided a lot of time to complete it. The math minigame from glow_minigames is used. If this is too hard for your players, consider using the edited version of glow-minigames that we have provided within this resource in the "INSTALL" folder. This edited version is slightly easier than the base math minigame, but will still take the average player a decent time to figure out.
 
 #### Credits
 Thanks to [Simon](https://github.com/simsonas86) for fixing my code <3
