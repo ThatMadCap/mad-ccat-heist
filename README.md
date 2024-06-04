@@ -543,7 +543,7 @@ Config.DoorList['mad-ccat-heist:gabz_lamesapd_cargate'] = {
 * Option to download ONE per heist attempt for a "quiet" heist, or MULTIPLE at one time for a "loud" heist.
 * Important: players require at least ONE of the CCAT USBs in order to access the hack from the PD computer (how would you clone software without having a copy of it first). Bulk-download option (aka "loud" heist) requires players to wait 5 minutes for their download - ensuring PD/Crim negotiation roleplay.
 * The system will then shut down after a few seconds - players must take their cloned USB(s) before then (no running away and coming back 2 hours later when no one is there).
-* When cloning multiple USBs, the player bring anywhere between 2-5 blank usbs and recieve that many copies.
+* When cloning multiple USBs, the player can bring anywhere between 2-5 blank usbs and recieve that many copies.
 
 ##### Notes
 The heist was originally written for my FiveM server and I had no plans on releasing it. The heist has been tested and works properly. It is intended to be used once per server restart, therefore includes no cooldown feature. The heist will sync its state with all players on load. The building has 2 outer security systems that require bypassing in order to access the final hack.
